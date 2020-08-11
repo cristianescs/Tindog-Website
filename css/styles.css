@@ -1,0 +1,213 @@
+        body {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        /*Navigation bar*/
+
+        .navbar {
+            padding: 0 0 4.5rem 0 !important;
+        }
+
+        #title .navbar-brand {
+            font-family: 'Ubuntu', sans-serif;
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+
+        .nav-item {
+            padding: 0px 18px;
+        }
+
+        .nav-link {
+            font-weight: lighter;
+            font-size: 1.2rem;
+        }
+
+        /*Container*/
+
+        .container-fluid {
+            padding: 3% 15% 7% !important;
+            width: 20;
+        }
+
+        /*Download Buttons*/
+
+        .download-button {
+            margin: 10% 3% 5% 0;
+        }
+
+        /* Title */
+
+        #title img {
+            width: 60%;
+            transform: rotate(25deg);
+            position: absolute;
+            right: 30%;
+        }
+
+        #title {
+            background: #c92c41;
+            background: -webkit-linear-gradient(to right, #cf5a12, #cf5a12);
+            background: linear-gradient(to right, #cf5a12, #c92c41);
+        }
+
+        #title h1 {
+            font-weight: 800;
+            font-size: 3rem;
+            line-height: 1.5;
+            color: #fff;
+        }
+
+        /* Features Section*/
+
+        #features {
+            padding: 7% 15%;
+            background-color: #fff;
+            position: relative;
+            z-index: 1;
+            text-align: center;
+        }
+
+        #features h3 {
+            font-weight: 800;
+            font-size: 1.5rem;
+        }
+
+        #features p {
+            color: #8f8f8f;
+            padding: 0 10%;
+        }
+
+        .icon-features {
+            margin-top: 15%;
+            margin-bottom: 5%;
+            color: #c92c41;
+        }
+
+        .icon-features:hover {
+            color: #cf5a12;
+        }
+
+
+        /* TESTIMONIALS SECTION */
+
+        #testimonials {
+            background-color: #e74258;
+            color: #fff;
+            text-align: center;
+        }
+
+        #testimonials h2 {
+            font-weight: 800;
+            font-size: 3rem;
+            line-height: 1.5;
+        }
+
+        .testimonial-img {
+            width: 10%;
+            border-radius: 100%;
+            margin: 20px
+        }
+
+        #press {
+            background-color: #e74258;
+            padding-bottom: 3%;
+            text-align: center;
+        }
+
+        #press img {
+            width: 20%;
+            margin: 20px 20px 50px;
+        }
+
+        .carousel-item {
+            padding: 7% 12%;
+        }
+
+        /* PRICING */
+
+        #pricing {
+            padding: 6% 7%;
+            text-align: center;
+        }
+
+        .pricing-column {
+            padding: 3% 2%;
+        }
+
+        #pricing span {
+            color: #8f8f8f;
+            font-size: 2rem;
+            font-weight: 500;
+        }
+
+        #princing h3 {
+            font-weight: lighter;
+            font-size: 0.8rem;
+        }
+
+        #pricing h2 {
+            font-weight: 700;
+            font-size: 3rem;
+            line-height: 1.5;
+        }
+
+        .card-pricing {
+            margin-bottom: 40px !important;
+        }
+
+        /* CTA */
+
+        #cta {
+            background: #d86218;
+            color: #fff;
+            padding: 5% 20%;
+            text-align: center;
+        }
+
+        #cta button {
+            margin: 60px 20px;
+        }
+
+        #cta h3 {
+            font-size: 3.5rem;
+            line-height: 1.5;
+            font-weight: 800;
+        }
+
+        /* FOOTER */
+
+        #footer {
+            background-color: #fff;
+            padding: 5%;
+            text-align: center;
+        }
+
+        #footer i {
+            margin: 20px 10px;
+        }
+
+        /*MEDIA QUERIES*/
+
+        @media (max-width: 1028px) {
+            #title {
+                text-align: center;
+            }
+
+            #title img {
+                position: static;
+                transform: rotate(0);
+            }
+
+            #cta button {
+                margin: 30px 20px;
+            }
+
+            #pricing .card-pricing {
+                margin-bottom: 0 !important;
+            }
+
+            #pricing .third-card {
+                margin-top: 5%;
+            }
+        }
